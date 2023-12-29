@@ -12,13 +12,13 @@ Writes the converted number directly to stdout without any extra letters or desc
 # Examples
 
 num_conv 3F 16 2
--> Converts "3F" from hexadecimal to binary and returns: 111111
+Converts "3F" from hexadecimal to binary and returns: 111111
 
 num_conv 46 16
--> Converts "46" from decimal to hexadecimal and returns: 2E
+Converts "46" from decimal to hexadecimal and returns: 2E
 
 num_conv Z 36 10
--> Converts "Z" from a 36-based number system to decimal and returns: 35
+Converts "Z" from a 36-based number system to decimal and returns: 35
 
 # Install
 
