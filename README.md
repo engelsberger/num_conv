@@ -24,8 +24,8 @@ num_conv Z 36 10
 
 Clone the Github repository with:
 
-'git clone https://github.com/engelsberger/num_conv'
+`git clone https://github.com/engelsberger/num_conv`
 
 Change into the cloned folder and build the program with:
 
-'make'
+`make`
