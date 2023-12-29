@@ -17,6 +17,8 @@ Writes the converted number directly to stdout without any extra letters or desc
 
 "num_conv Z 36 10" -> Converts "Z" from a 36-based number system to decimal and returns: 35
 
+"num_conv 15 2 10" -> Returns an error message, since 19 is not a valid binary number.
+
 # Install
 
 Clone the Github repository with:
