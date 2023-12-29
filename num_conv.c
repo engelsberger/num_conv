@@ -168,6 +168,7 @@ int main(int argc, char* argv[]) {
 	if (convert_number(argv[1], converted, input_num_system, output_num_system)) {
 
 		printf("Error: Input number is too large.\n");
+		return -1;
 	}
 	
 	printf("%s\n", converted);
