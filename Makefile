@@ -1,12 +1,7 @@
 CC=gcc
 DEBUG=yes
-EXEC=program.exe
-
-# all c files in this directory
-SRC = $(wildcard *.c)
-# otherwise
-#SRC = $(wildcard src_dir1/*.c) \
-#      $(wildcard src_dir2/*.c)
+EXEC=num_conv
+SRC=num_conv.c
 
 # -g for debug
 # -Wall to get all the possible warnings
